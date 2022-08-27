@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="leftheadicon">
+          <div class="imgprof"><img src="prof.jpg" alt="profile" /></div>
+          <div class="imgmenu">
+            <div><img src="menu.png" alt="menu" /></div>
+          </div>
+          <div class="dropdown">
+            <button id="myBtn" class="dropbtn"><i class="fa-solid fa-caret-down"></i>هفته</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a><p href="#">D</p><p href="#">روز</p></a>
+              <a><p href="#">W</p><p href="#">هفته</p></a>
+              <a><p href="#">M</p><p href="#">ماه</p></a>
+              <a><p href="#">Y</p><p href="#">سال</p></a>
+              <a><p href="#">A</p><p href="#">برنامه زمانی</p></a>
+              <a><p href="#">X</p><span><p href="#"> روز </p><p href="#"> 4 </p></span></a>
+
+
+            </div>
+          </div>
+          <div class="setingicon ico">
+            <i class="fa-solid fa-gear iconsz"></i>
+          </div>
+          <div class="questionicon ico">
+            <i class="fa-regular fa-circle-question iconsz"></i>
+          </div>
+          <div class="searchicon ico">
+            <i class="fa-solid fa-magnifying-glass iconsz"></i>
+          </div>
+        </div>
+
+        <div class="rightheadicon">
+          <div class="datetxt"><span id="mon"></span><span id="yea"></span></div><div id="test" class="class1"></div>
+          <div class="rilefico">
+            <a href="" class="secicon"> <i class="fa-solid fa-chevron-left secico"></i></i> </a>
+            <a href="" class="secicon"> <i class="fa-solid fa-chevron-right secico"></i></i> </a>
+          </div>
+          <div class="today"><button type="submit">امروز</button></div>
+          <div class="txticon"><p>تقویم</p><img src="nine.png" alt="number"><p class="icdtnum" id="icdtnum"></p></div>
+          <div class="endmencon"><div class="endmenuhead"><i class="fa-solid fa-bars iconsz"></i></div></div>
+        </div>
+      </div>
+      <script
+        src="https://kit.fontawesome.com/6233c7c039.js"
+        crossorigin="anonymous"
+      ></script>
+    </header>
+    <section>
+      <div class="sidebar">
+        <div class="options">
+        <div class="dv"><a href=""> <img src="keep.png" alt=""></a></div>
+        <div class="dv"><a href=""> <img src="tasks.png" alt=""></a></div>
+        <div class="dv"><a href=""> <img src="contact.png" alt=""></a></div>
+        <div class="dv"><a href=""> <img src="map.png" alt=""></a></div>
+      </div>
+        </div>
+        <main>
+       <div class="borcal">
+        <div class="mainhead" id="dayshow"> </div>
+         <div class="topbrd" id="topbrd"></div>
+          <div class="tablS" id="tablS"></div>
+           <div class="tableO" id="table">
+            <div class="insidetable" id="insidetable"></div>
+             <div class="timetxt" id="timeshow">
+            </div>
+           </div>
+          </div>
+        </main>
+          </div>
+    </section>
+  </body>
+  <script src="code.js"></script>
+  <script src="repeat.js"></script>
+</html>
+
